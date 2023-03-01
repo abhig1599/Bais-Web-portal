@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: url(/navbar/Ué.jpeg);
+    }
+    
+header {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 20px black;
+    }
+header * {
+        display: inline;
+        }
+        
+header li {
+        margin: 20px;
+        }
+        
+header li a {
+        color: white;
+        text-decoration: none;
+        }
+nav a:hover {
+            font-size: 17px;
+            color: rgb(41, 229, 166);
+            text-decoration: underline;
+
+          }
